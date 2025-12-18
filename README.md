@@ -1,6 +1,6 @@
 # Evaluación Final Transversal: Infraestructura como Código I (AUY1103)
 
-[cite_start]Este repositorio contiene el código base en **Terraform** para el despliegue de una arquitectura web multinivel en **Amazon Web Services (AWS)**[cite: 16, 20]. [cite_start]La evaluación consiste en la ejecución, diagnóstico y mejora de este script para cumplir con los estándares de disponibilidad y eficiencia operativa[cite: 20].
+Este repositorio contiene el código base en **Terraform** para el despliegue de una arquitectura web multinivel en **Amazon Web Services (AWS)**. La evaluación consiste en la ejecución, diagnóstico y mejora de este script para cumplir con los estándares de disponibilidad y eficiencia operativa.
 
 ## 1. Descripción de la Infraestructura
 
@@ -22,19 +22,19 @@ El proyecto tiene como objetivo desplegar una infraestructura básica que soport
 
 ## 2. Instrucciones para el Estudiante
 
-[cite_start]De acuerdo con la pauta de evaluación[cite: 20]:
+De acuerdo con la pauta de evaluación:
 
 ### Ítem I: Ejecución y Diagnóstico
-1.  [cite_start]**Configuración del Entorno:** Configure sus credenciales de AWS mediante variables de entorno o AWS CLI[cite: 20].
-2.  [cite_start]**Inicialización:** Ejecute `terraform init` para descargar los providers necesarios[cite: 20].
-3.  [cite_start]**Despliegue:** Ejecute `terraform plan` y `terraform apply`[cite: 20].
-    * [cite_start]**Nota Crítica:** Es responsabilidad del estudiante diagnosticar y corregir cualquier error (sintáctico, de recursos o de conectividad) que impida el despliegue exitoso[cite: 20]. [cite_start]Se evaluará la capacidad de **troubleshooting** y el uso de técnicas de **debugging**[cite: 20].
+1.  **Configuración del Entorno:** Configure sus credenciales de AWS mediante variables de entorno o AWS CLI.
+2.  **Inicialización:** Ejecute `terraform init` para descargar los providers necesarios.
+3.  **Despliegue:** Ejecute `terraform plan` y `terraform apply`.
+    * **Nota Crítica:** Es responsabilidad del estudiante diagnosticar y corregir cualquier error (sintáctico, de recursos o de conectividad) que impida el despliegue exitoso. Se evaluará la capacidad de **troubleshooting** y el uso de técnicas de **debugging**.
 
 ### Ítem II: Optimización y Mejora
-[cite_start]Una vez que el script sea funcional, deberá implementar mejoras técnicas que incluyan[cite: 20]:
-* [cite_start]**Modularización:** Refactorización de componentes repetitivos[cite: 20].
-* [cite_start]**Parametrización:** Uso de variables para flexibilizar el código[cite: 20].
-* [cite_start]**Funciones Internas:** Aplicación de funciones (`count`, `for_each`, etc.) para simplificar la lógica de creación de recursos[cite: 20].
+Una vez que el script sea funcional, deberá implementar mejoras técnicas que incluyan:
+* **Modularización:** Refactorización de componentes repetitivos.
+* **Parametrización:** Uso de variables para flexibilizar el código.
+* **Funciones Internas:** Aplicación de funciones (`count`, `for_each`, etc.) para simplificar la lógica de creación de recursos.
 
 ---
 
@@ -46,4 +46,4 @@ El proyecto tiene como objetivo desplegar una infraestructura básica que soport
 ---
 
 ### Entrega
-[cite_start]Siga las instrucciones de su instructor para la entrega del código refactorizado y el archivo de estado (`terraform.tfstate`) según los indicadores de logro definidos en la pauta[cite: 20, 23].
+Siga las instrucciones de su instructor para la entrega del código refactorizado y el archivo de estado (`terraform.tfstate`) según los indicadores de logro definidos en la pauta[cite: 20, 23].
