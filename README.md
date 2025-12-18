@@ -6,17 +6,7 @@ Este repositorio contiene el código base en **Terraform** para el despliegue de
 
 El proyecto tiene como objetivo desplegar una infraestructura básica que soporte una aplicación web escalable, compuesta por los siguientes componentes:
 
-### Redes y Seguridad
-* **VPC y Conectividad:** Se define una subred pública, un Internet Gateway y las tablas de enrutamiento necesarias para permitir el tráfico hacia el exterior.
-* **Seguridad:** Un **Security Group** actúa como firewall virtual para controlar el tráfico entrante (Ingress) y saliente (Egress) de las instancias de cómputo.
-
-### Capa de Cómputo
-* **Servidores de Aplicación:** Se despliegan cuatro instancias **EC2** basadas en **Amazon Linux 2**.
-* **Aprovisionamiento:** Las instancias iniciales incluyen un bloque de automatización (`remote-exec`) para la instalación y configuración automática del servidor web **Apache (httpd)**.
-
-### Capa de Datos
-* **Base de Datos Relacional:** Se incluye la configuración de un clúster **Amazon Aurora (MySQL)** para la persistencia de datos.
-* **Gestión de Red de Datos:** Se utiliza un **DB Subnet Group** para organizar la ubicación de la base de datos dentro de la red privada.
+(Descripción debe ser entregada por cada alumno, al docente)
 
 ---
 
