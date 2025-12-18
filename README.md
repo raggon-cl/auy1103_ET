@@ -46,4 +46,4 @@ Una vez que el script sea funcional, deberá implementar mejoras técnicas que i
 ---
 
 ### Entrega
-Siga las instrucciones de su instructor para la entrega del código refactorizado y el archivo de estado (`terraform.tfstate`) según los indicadores de logro definidos en la pauta[cite: 20, 23].
+Siga las instrucciones de su instructor para la entrega del código refactorizado y el archivo de estado (`terraform.tfstate`) según los indicadores de logro definidos en la pauta.
